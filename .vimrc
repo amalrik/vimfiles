@@ -19,6 +19,12 @@ set directory=/tmp              " directory used to save swap files
 set number
 "set background=dark
 "colorscheme ir_black
+
+if has("gui_running")
+  set background=dark
+  colorscheme solarized
+endif
+
 syntax on
 map <F2> :CtrlP<CR>
 map <F3> :NERDTreeToggle<CR>
