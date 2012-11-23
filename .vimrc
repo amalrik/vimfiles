@@ -16,7 +16,14 @@ set backspace=indent,eol,start  " backspace through everything in insert mode
 set backupdir=/tmp              " directory used to save backup files
 set directory=/tmp              " directory used to save swap files
 
+"show line numbers
 set number
+" Show the current mode
+set showmode
+" Show the filename in the window titlebar
+set title
+" Show the cursor position
+set ruler
 "set background=dark
 "colorscheme ir_black
 
